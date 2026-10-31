@@ -9,7 +9,7 @@ export default function ServicesPage() {
       <PageBanner
         eyebrow="Services"
         title="Home Remodeling in Acton"
-        description="From kitchens and bathrooms to living rooms and basements, Mariner Construction LLC helps you update the rooms you live in every day."
+        description="From kitchens and bathrooms to living rooms, basements, and decks, Mariner Construction LLC helps you update the spaces you live in every day."
       />
 
       <section className="py-16 sm:py-24">

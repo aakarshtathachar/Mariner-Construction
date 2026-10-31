@@ -7,11 +7,11 @@ export default function ProjectGallery() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <SectionHeading
           eyebrow="Our Work"
-          title="Kitchens, Baths & Living Spaces"
+          title="Kitchens, Baths, Living Spaces & Decks"
           description="A few recent projects from homes around Acton. Contact us to discuss the room you have in mind."
         />
 
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {PROJECTS.map((project) => (
             <figure
               key={project.title}

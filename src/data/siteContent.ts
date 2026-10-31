@@ -17,13 +17,13 @@ export const NAV_LINKS = [
   { label: 'Contact', href: '#/contact' },
 ];
 
-export const PROJECT_TYPES = ['Kitchen remodel', 'Bathroom renovation', 'Living room or basement'];
+export const PROJECT_TYPES = ['Kitchen remodel', 'Bathroom renovation', 'Living room or basement', 'Deck or porch'];
 
 export const WORK_HIGHLIGHTS = [
   'Kitchen remodels',
   'Bathroom renovations',
   'Living rooms & finished basements',
-  'Free estimates by appointment',
+  'Decks & porches',
 ];
 
 export const PROCESS_STEPS = [
@@ -50,6 +50,12 @@ export const PROJECTS = [
     category: 'Living spaces',
     src: '/living_room.webp',
     alt: 'Finished basement living room with a brick fireplace, wood-look floor, and built-in bar',
+  },
+  {
+    title: 'Front Porch Deck',
+    category: 'Outdoor spaces',
+    src: '/deck.jpg',
+    alt: 'Stained wood front porch deck with white trim, steps, and a column',
   },
 ];
 
